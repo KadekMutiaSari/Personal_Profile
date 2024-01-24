@@ -1,0 +1,114 @@
+/* Import font Poppins dari Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap');
+
+body {
+    font-family: "Poppins", Arial, Helvetica, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: rgb(255, 107, 131);
+    padding: 20px;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+header .profile-picture {
+    margin-left: 20px;
+}
+
+header .profile-picture figure {
+    margin: 0;
+}
+
+nav {
+    background-color: rgb(255, 107, 131);
+    padding: 10px;
+    text-align: center;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+nav ul li {
+    display: inline-block;
+    margin-right: 10px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #fff;
+    padding: 8px 15px;
+    border-radius: 5px;
+    background-color: #ff6b83;
+    transition: background-color 0.3s ease;
+}
+
+nav ul li a:hover {
+    background-color: #ff4d63;
+}
+
+main {
+    padding: 20px;
+}
+
+section {
+    margin-bottom: 20px;
+}
+
+/* Gaya untuk setiap bagian */
+section .profile-info,
+section .education-info,
+section .contact-info {
+    padding: 20px;
+    background-color: #f9f9f9;
+    border-radius: 8px;
+    text-align: center;
+}
+
+section h2 {
+    color: rgb(255, 107, 131);
+}
+
+/* Gaya gambar profil */
+section .profile-image {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    object-fit: cover;
+    display: block;
+    margin: 0 auto;
+}
+
+/* Gaya untuk informasi dalam setiap bagian */
+section .profile-details p {
+    margin: 10px 0;
+}
+
+/* Gaya untuk informasi kontak */
+section dl {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+section dt, section dd {
+    margin: 5px 0;
+}
+
+footer {
+    background-color: rgb(255, 107, 131);
+    padding: 20px;
+    text-align: center;
+}
+
+footer span {
+    font-weight: bold;
+}
